@@ -4,14 +4,37 @@ $coral: #E95F4E;
 $silver: #F5F6F7;
 $grass: #B0D0B6;
 
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
 body {
   position: relative;
   background: $silver;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  background: transparent;
+  border: 2px solid $black;
+  padding: em(10) em(15);
+}
+
+input {
+  display: block;
+  margin: em(5) 0;
 }
 
 .home {
   // background: url(../../img/sf.jpg) no-repeat center center fixed;
-  background-size: cover;
+  // background-size: cover;
 }
 
 .main-header {
@@ -21,5 +44,16 @@ body {
 .logo-img {
   fill: $silver;
   display: block;
+  width: em(60);
+  height: em(60);
   margin: auto;
+  &:hover {
+    .logo-img__dark {
+      fill: $coral;
+    }
+  }
+}
+
+.main-content {
+  @include clearfix;
 }
