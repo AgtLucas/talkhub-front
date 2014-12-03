@@ -1,0 +1,29 @@
+{
+  "name": "talkhub-front",
+  "version": "1.0.0",
+  "description": "talkhub-front =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgtLucas/talkhub-front.git"
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgtLucas/talkhub-front/issues"
+  },
+  "homepage": "https://github.com/AgtLucas/talkhub-front",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-browserify": "^0.5.0",
+    "gulp-change": "^1.0.0",
+    "gulp-concat": "^2.4.2",
+    "gulp-gh-pages": "^0.4.0",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-sass": "^1.1.0",
+    "gulp-uglify": "^1.0.1"
+  }
+}
