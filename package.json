@@ -18,6 +18,7 @@
   "homepage": "https://github.com/AgtLucas/talkhub-front",
   "devDependencies": {
     "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.0.0",
     "gulp-browserify": "^0.5.0",
     "gulp-change": "^1.0.0",
     "gulp-concat": "^2.4.2",
