@@ -32,13 +32,19 @@ input {
   margin: em(5) 0;
 }
 
+.wrap {
+  @include outer-container;
+}
+
 .home {
   // background: url(../../img/sf.jpg) no-repeat center center fixed;
   // background-size: cover;
+  background: $silver;
 }
 
 .main-header {
   background: $night;
+  padding: em(5) 0;
 }
 
 .logo-img {
