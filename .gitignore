@@ -29,3 +29,5 @@ node_modules
 
 .idea/
 .c9/
+
+*.DS_Store
