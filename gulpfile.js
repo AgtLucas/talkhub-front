@@ -2,7 +2,6 @@
 var gulp = require('gulp')
   , browserify = require('gulp-browserify')
   , sass = require('gulp-sass')
-  , deploy = require('gulp-gh-pages')
   , concat = require('gulp-concat')
   , uglify = require('gulp-uglify')
   , autoprefixer = require('gulp-autoprefixer')
@@ -34,9 +33,3 @@ gulp.task('watch', function () {
 
 // Default Task
 gulp.task('default', ['browserify', 'sass']);
-
-// Deploy Task
-//gulp.task('deploy', function () {
-//  gulp.src('_site/**/*')
-//    .pipe(deploy());
-//});
