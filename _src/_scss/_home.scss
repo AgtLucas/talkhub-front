@@ -1,3 +1,12 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, .1);
+}
+
 .action-login {
   position: absolute;
   top: 50%;
@@ -5,6 +14,26 @@
   @include transform(translate(-50%, -50%));
 }
 
+.action-login__input,
 .btn-login {
-  width: 100%;
+  width: em(300);
+}
+
+.action-login__input {
+  margin: em(10) 0;
+  color: $silver;
+  @include placeholder {
+    color: darken($silver, 20);
+  }
+}
+
+.action-login__title {
+  font-size: rem(25);
+  text-transform: uppercase;
+  color: $silver;
+}
+
+.btn-login {
+  color: $silver;
+  text-transform: uppercase;
 }

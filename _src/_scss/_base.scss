@@ -17,13 +17,12 @@ a {
 button,
 input {
   background: transparent;
-  border: 2px solid $black;
+  border: 2px solid $silver;
   padding: em(10) em(15);
 }
 
 input {
   display: block;
-  margin: em(5) 0;
 }
 
 .wrap {
@@ -35,16 +34,15 @@ input {
   background-size: cover;
 }
 
-.main-header {
-  padding: em(5) 0;
-}
-
 .logo-img {
+  position: absolute;
   fill: $silver;
-  display: block;
-  width: em(60);
-  height: em(60);
-  margin: auto;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  width: em(80);
+  height: em(80);
+  margin: em(20) auto;
   &:hover {
     .logo-img__dark {
       fill: $coral;

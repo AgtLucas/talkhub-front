@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="build/css/main.css" />
 </head>
 <body class="home">
-
-<header class="main-header" role="banner">
+<div class="overlay"></div>
+<header class="main-header main-header__home" role="banner">
 
   <div class="wrap">
     <a href="/">
@@ -29,10 +29,11 @@
 <main class="main-content" role="main">
 
   <section class="action-login">
+    <span class="action-login__title">Login</span>
     <form class="action-login__form">
-      <input type="text" placeholder="User">
-      <input type="password" placeholder="Password">
-      <button class="btn btn-login"><span>Login</span></button>
+      <input class="action-login__input" type="text" placeholder="User">
+      <input class="action-login__input" type="password" placeholder="Password">
+      <button class="btn btn-login"><span>Go!</span></button>
     </form>
   </section>
 
